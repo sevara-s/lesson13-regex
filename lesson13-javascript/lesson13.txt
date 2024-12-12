@@ -1,0 +1,53 @@
+Regfex is a sequence of characters that forms a search pattern . It can be used to search,edit and manipulate a text,
+
+
+How to  create regfex in js?
+1) / str / flags 
+2) constructor: new regfex ("pattern","flags);
+
+
+Test method checks if pattern exists in a stirng . it's fast and only returns true or false .
+
+Flags modify regex behavior:
+
+1) i - Case insensitive it doesn't matter wheather the letter is in uppercase or lowercase.
+2) g - Global match
+without g, only the first match is found.
+with g, finds all matches.
+and it returns the array.
+3) m - Multiline match
+
+
+
+
+Special characters
+1) Dot (.) -> matches any characters except newline
+
+[a-z]--> it takes all lowercase letters
+[A-Z]-->it takes all uppercase letters
+[^fnkf]--> it takes all characters except from the characters inside this.
+/d -> mateches only  numbers
+/D -> it matches only charcaters that are not a number.
+
+/w -it only matches lowercase letters and numbers and "_".
+/W - it only matches characters that is not lowercase letters and numbers and"_".
+
+/s - it only matches whitespaces in the string.
+/S - it only matches characters except from all whitespaces and enter spaces.
+
+
+
+/n- matches the enter spaces 
+\d{3} - takes and matches every 3 digits in stirng
+
+
+
+
+
+
+
+
+
+
+
+
